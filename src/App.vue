@@ -1,22 +1,27 @@
 <template>
-<div>
-  <ModalButton/>  
-</div>
+  <div>{{ text }}</div>
 </template>
 
 <script>
-import ModalButton from  "./components/ModalButton.vue";
+
 export default {
-  name: "App",
-  components: {
-    ModalButton
-  },
+  name: "App", 
   data() {
     return{
-      show: false,
+      text: "Hola Vue"
     }
+  },
+  beforeCreate(){
+    console.log("before Create", this.$data, this.$el)
+  },
+  created(){
+    console.log("created", this.$data, this.$el)
+  },
+  mounted(){
+    console.log("mounted", this.$data, this.$el)
   }
-};
+}
+
 </script>
 
 <style>
