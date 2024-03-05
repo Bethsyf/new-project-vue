@@ -1,30 +1,16 @@
 <template>
-  <div>{{ text }}</div>
-  <div>{{ algo }}</div>
+  <UserRepositories :user="'Bethsy'"></UserRepositories>
 </template>
 
 <script>
-import base from "@/mixins/base"
+import UserRepositories from "./components/UserRepositories.vue";
 
 export default {
-  name: "App", 
-  mixins: [base],
-  data() {
-    return{
-      text: "Hola Vue"
-    }
+  name: "App",
+  components: {
+    UserRepositories,
   },
-  beforeCreate(){
-    console.log("before Create", this.$data, this.$el)
-  },
-  created(){
-    console.log("created", this.$data, this.$el)
-  },
-  mounted(){
-    console.log("mounted", this.$data, this.$el)
-  }
-}
-
+};
 </script>
 
 <style>
