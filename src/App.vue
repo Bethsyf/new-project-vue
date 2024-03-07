@@ -1,14 +1,14 @@
 <template>
-  <UserRepositories :user="'Bethsy'"></UserRepositories>
+  <HomeV/>
 </template>
 
 <script>
-import UserRepositories from "./components/UserRepositories.vue";
+import HomeV from "./components/HomeV.vue";
 
 export default {
   name: "App",
   components: {
-    UserRepositories,
+    HomeV,
   },
 };
 </script>
@@ -22,4 +22,4 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-</style>
+</style>./components/Home.vue
