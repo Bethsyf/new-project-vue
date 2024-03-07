@@ -10,18 +10,8 @@
         required: true,
       },
     },
-    setup(props, ctx) {
-      return {
-        repositories,
-      };
-    },
-    data() {
-      return {
-        repositories: [], // 1
-        filters: {}, // 3
-        searchQuery: "", // 2
-      };
-    },
+  
+    
     computed: {
       filteredRepositories() {
         // 3
