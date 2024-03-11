@@ -3,15 +3,18 @@
 </template>
 
 <script>
-import { ref, computed } from "vue";
+import { toRefs, computed } from "vue";
 
 export default {
-  setup() {
-   const firstname = ref('Bethsy');
-   const lastname = ref('Falcon')
+  props: {
+  firstName: String,
+  lastName: String
+  },
+  setup(props) {
+   const {firstName, lastName} = toRefs(props);
 
    const fullName = computed(()=>{
-    return `${firstname.value} ${lastname.value}`;
+    return `${firstName.value} ${lastName.value}`;
    })
    
 
