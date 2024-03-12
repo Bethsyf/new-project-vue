@@ -4,11 +4,15 @@
 
 <script>
 import HomeV from "./components/HomeV.vue";
+import { provide } from "vue"
 
 export default {
   name: "App",
   components: {
     HomeV,
+  },
+  setup() {
+    provide("userName", "Bethsyf");
   },
 };
 </script>
