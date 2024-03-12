@@ -33,6 +33,7 @@ Para compilar el proyecto y obtener recargas en caliente durante el desarrollo, 
 yarn serve
 
 
+
 ### Compilar y Minificar para Producción
 
 Para compilar y minificar los archivos para producción, utiliza el siguiente comando:
@@ -40,11 +41,13 @@ Para compilar y minificar los archivos para producción, utiliza el siguiente co
 yarn build
 
 
+
 ### Linteo y Corrección de Archivos
 
 Para lintear y corregir los archivos del proyecto, ejecuta el siguiente comando:
 
 yarn lint
+
 
 
 ## Personalización de la Configuración
