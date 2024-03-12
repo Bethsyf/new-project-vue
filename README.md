@@ -1,6 +1,6 @@
 # New Project Vue
 
-Este es un proyecto Vue.js creado para [Descripción breve del propósito del proyecto].
+Este es un proyecto Vue.js creado para practicar los fundamentos de Vue.js, es una lista de tareas que se consume de un API y permite eliminar y agregar tareas.
 
 ## Instalación del Proyecto
 
