@@ -1,24 +1,61 @@
-# new-project-vue
+# New Project Vue
 
-## Project setup
-```
-yarn install
-```
+Este es un proyecto Vue.js creado para [Descripción breve del propósito del proyecto].
 
-### Compiles and hot-reloads for development
-```
+## Instalación del Proyecto
+
+Primero, asegúrate de tener [Node.js](https://nodejs.org/) y [Yarn](https://yarnpkg.com/) instalados en tu sistema. Luego, sigue estos pasos:
+
+1. Clona este repositorio en tu máquina local usando el siguiente comando:
+
+    ```
+    git clone https://github.com/Bethsyf/new-project-vue.git
+    ```
+
+2. Navega hasta el directorio del proyecto:
+
+    ```
+    cd new-project-vue
+    ```
+
+3. Instala las dependencias del proyecto utilizando Yarn:
+
+    ```
+    yarn install
+    ```
+
+## Uso del Proyecto
+
+### Compilar y Recargar en Desarrollo
+
+Para compilar el proyecto y obtener recargas en caliente durante el desarrollo, ejecuta el siguiente comando:
+
 yarn serve
-```
 
-### Compiles and minifies for production
-```
+
+### Compilar y Minificar para Producción
+
+Para compilar y minificar los archivos para producción, utiliza el siguiente comando:
+
 yarn build
-```
 
-### Lints and fixes files
-```
+
+### Linteo y Corrección de Archivos
+
+Para lintear y corregir los archivos del proyecto, ejecuta el siguiente comando:
+
 yarn lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Personalización de la Configuración
+
+Para personalizar la configuración de Vue CLI, consulta la [Referencia de Configuración](https://cli.vuejs.org/config/).
+
+## Enlaces Adicionales
+
+- GitHub: [https://github.com/Bethsyf/new-project-vue](https://github.com/Bethsyf/new-project-vue)
+- Despliegue: [https://new-project-vue.vercel.app/](https://new-project-vue.vercel.app/)
+
+¡Gracias por utilizar este proyecto!
+
+
